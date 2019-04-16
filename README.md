@@ -58,7 +58,22 @@ For achieving this, we reuse the method of the preceding solution. It simply is 
 I preserving a copy of DNA is already possible as many women cryogenize their ovaries for having childs after 40's
 This second solution is the first one to completely solve ageing. But still also has the drawback of repeating the operation every X years. 
 
-The last way of solving ageing, is inspired by how NASA make TODO sondes works.
+The last way of solving ageing, is inspired by how NASA make space probes work.
 When you think about it, Processors in space are like DNA, they are irradiated by solar rays. 
-Those rays defects random transistors. Sondes works thanks to redundancy, they have many processors that performs the same task, and through majority voting, if 3 of 4 cpus have the same output then this output is the choosen one.
+Those rays defects random transistors. Space probes work thanks to redundancy, they have many processors that performs the same task, and through majority voting, if 3 of 4 cpus have the same output then this output is the choosen one.
 This is also how works ECC RAM in datacenters.
+To adapt this to DNA, we would need to clone each DNA gene for example 4 times by appending copys at the right of the original gene.
+We do not want the gene to be expressed 4 times.. therefore the copys must, through special headers (e.g https://en.wikipedia.org/wiki/Stop_codon) or other techniques be like 98% of the DNA, inactive ( https://en.wikipedia.org/wiki/Non-coding_DNA ).
+To assess the viability of having redundant genes, we can see that it already occurs naturally https://en.wikipedia.org/wiki/Genetic_redundancy but in small quantity as, it reduce ageing but redundancy decrease evoltuion, therefore is eliminated by selective pressure.
+How to actually go to a specific gene start ? CRISPR already allow to do this.
+pasting a gene, allowed too.
+I can't find if CRISPR/CAS* already allow copying a gene, but preliminary search queries seems to imply so.
+If so, we need to repeat the copying, for each gene of the DNA.
+The second step is to update to either the decoder of the DNA or analyses passes like existing DNA repair to implement the following functions, functions which necessitate extremely basic logic such as comparing equality between two amino acids and the ability to retain "in memory" some indexes.
+Thoses biological analyzers today go from the start header to the end header of a gene.
+here they would go from the first amino acid of a given gene to the first amino acid of the first copy of the given gene. if they're equal go to next first amino acid of the next copy. if not equal rewrite it through majority voting with others amino acid value.
+repeat for each amino acid of the gene.
+the defectuous parts of the genes copys have effectivelly been rewritten by others most frequent occurence.
+therefore the mutations have been reseted.
+How can we implement such a basic algorithm in informatic is an open question in biology.
+But one interesting thing to observes is that both DNA repair mechanisms and https://en.wikipedia.org/wiki/Messenger_RNA (the decoding protocol) are made of genes TOO! So we could "code" the functions in base 4 in lab and reset Messenger RNA or DNA repair genes, through CRISPR/CAS9.
