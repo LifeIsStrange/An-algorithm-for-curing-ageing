@@ -1,6 +1,5 @@
 # An-algorithm-for-curing-ageing
-WIP
-DO NOT READ YET, THIS IS TOTALLY UNCOMPLETE. 
+
 To solve a problem one must first understand and define it.
 
 So, what is ageing? Ageing is in itself something simple.
@@ -38,3 +37,28 @@ Some facts:
 Humans have in average 60000 mutations each day.
 DNA has effective DNA repair mechanisms, the ageing of a cell increase dramatically when DNA repair mechanisms become broken by mutations (how ironic)
 
+Two already existing tools :
+Vectors: totally safe viruses that can be injected in a body, go through cells and carry a CRISPR/CAS-(pick one) 
+CRISPR/CAS9: extremely accurate, cheap and "easy" technology that scale for editing genes. 
+Once carried in a cell DNA thanks to a vector, it can remove an interval of DNA, and insert a version of a gene.
+
+It theoretically allow to spread to each DNA of your body, and change any genes you want.
+A first low hanging fruit would be to remove every DNA REPAIR genes of each DNA of your body and replace all of them with new, unmutated DNA repair genes.
+
+Such a solution would not totally solve ageing as DNA repair is unperfect, but should have unprecedent results and as a side effects diminishe by an order of magnitude cancer cells. 
+Why hasn't this already been done? I'm not aware nor if it has been tried, nor if it is actually researched funded, nor if there is a complete listing of the difficulties of such an implementation. I've read many CRISPR/CAS9 limitations but most of them are patched by recent research.
+
+
+A second way would be a hard reset of DNA.
+That is, we save a copy of your DNA while you're still young, keeping it for you.
+Time passe, you age, therefore we replace progressively replace each gene of your DNA of all of your cells, with a copy of the corresponding gene from your saved young DNA.
+This effectively hard reset your body to a younger one.
+Such a process must be repeated every X years.
+For achieving this, we reuse the method of the preceding solution. It simply is a far more massive rewriting of DNA, and add one premise : that is is feasible to preserve a copy of your DNA and that this copy will not mutate.
+I preserving a copy of DNA is already possible as many women cryogenize their ovaries for having childs after 40's
+This second solution is the first one to completely solve ageing. But still also has the drawback of repeating the operation every X years. 
+
+The last way of solving ageing, is inspired by how NASA make TODO sondes works.
+When you think about it, Processors in space are like DNA, they are irradiated by solar rays. 
+Those rays defects random transistors. Sondes works thanks to redundancy, they have many processors that performs the same task, and through majority voting, if 3 of 4 cpus have the same output then this output is the choosen one.
+This is also how works ECC RAM in datacenters.
