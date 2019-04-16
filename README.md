@@ -81,3 +81,4 @@ But one interesting thing to observes is that both DNA repair mechanisms and htt
 to study: https://en.wikipedia.org/wiki/Nonsense-mediated_decay
 https://en.wikipedia.org/wiki/Leaky_scanning
 https://en.wikipedia.org/wiki/MRNA_surveillance
+https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology
