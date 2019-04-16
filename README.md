@@ -69,10 +69,10 @@ How to actually go to a specific gene start ? CRISPR already allow to do this.
 pasting a gene, allowed too.
 I can't find if CRISPR/CAS* already allow copying a gene, but preliminary search queries seems to imply so.
 If so, we need to repeat the copying, for each gene of the DNA.
-The second step is to update to either the decoder of the DNA or analyses passes like existing DNA repair to implement the following functions, functions which necessitate extremely basic logic such as comparing equality between two amino acids and the ability to retain "in memory" some indexes.
+The second step is to update to either the decoder of the DNA or analyses passes like existing DNA repair to implement the following functions, functions which necessitate extremely basic logic such as comparing equality between two nucleotide and the ability to retain "in memory" some indexes.
 Thoses biological analyzers today go from the start header to the end header of a gene.
-here they would go from the first amino acid of a given gene to the first amino acid of the first copy of the given gene. if they're equal go to next first amino acid of the next copy. if not equal rewrite it through majority voting with others amino acid value.
-repeat for each amino acid of the gene.
+here they would go from the first nucleotide of a given gene to the first nucleotide of the first copy of the given gene. if they're equal go to next first nucleotide of the next copy. if not equal rewrite it through majority voting with others nucleotide value.
+repeat for each nucleotide of the gene.
 the defectuous parts of the genes copys have effectivelly been rewritten by others most frequent occurence.
 therefore the mutations have been reseted.
 How can we implement such a basic algorithm in informatic is an open question in biology.
