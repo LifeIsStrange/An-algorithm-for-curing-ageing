@@ -77,3 +77,7 @@ the defectuous parts of the genes copys have effectivelly been rewritten by othe
 therefore the mutations have been reseted.
 How can we implement such a basic algorithm in informatic is an open question in biology.
 But one interesting thing to observes is that both DNA repair mechanisms and https://en.wikipedia.org/wiki/Messenger_RNA (the decoding protocol) are made of genes TOO! So we could "code" the functions in base 4 in lab and reset Messenger RNA or DNA repair genes, through CRISPR/CAS9.
+
+to study: https://en.wikipedia.org/wiki/Nonsense-mediated_decay
+https://en.wikipedia.org/wiki/Leaky_scanning
+https://en.wikipedia.org/wiki/MRNA_surveillance
