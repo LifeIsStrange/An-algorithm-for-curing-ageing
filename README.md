@@ -13,7 +13,7 @@ It's final consequence, after deeply lowering your quality of life, is death.
 This is why fighting ageing in the meaning of fighting loss of quality of life or overall hapiness, must be a consensual and primordial priority of research and funding.
 
 What cause ageing?
-Many factors, mainly light which irradiate TODO peau cells, but also free electrons which oxydate your body, and also imperfect copy while cells clone themselves.
+Many factors, mainly light which irradiate skin cells, but also free electrons which oxydate your body, and also imperfect copy while cells clone themselves.
 This does not aim to be exhaustive.
 
 We can imagine a large variety of solutions for eradicating ageing.
